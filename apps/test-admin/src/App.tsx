@@ -9,6 +9,10 @@ import { UserList } from "./user/UserList";
 import { UserCreate } from "./user/UserCreate";
 import { UserEdit } from "./user/UserEdit";
 import { UserShow } from "./user/UserShow";
+import { B2bSubmissionGogetaList } from "./b2bSubmissionGogeta/B2bSubmissionGogetaList";
+import { B2bSubmissionGogetaCreate } from "./b2bSubmissionGogeta/B2bSubmissionGogetaCreate";
+import { B2bSubmissionGogetaEdit } from "./b2bSubmissionGogeta/B2bSubmissionGogetaEdit";
+import { B2bSubmissionGogetaShow } from "./b2bSubmissionGogeta/B2bSubmissionGogetaShow";
 import { jwtAuthProvider } from "./auth-provider/ra-auth-jwt";
 
 const App = (): React.ReactElement => {
@@ -41,6 +45,13 @@ const App = (): React.ReactElement => {
           edit={UserEdit}
           create={UserCreate}
           show={UserShow}
+        />
+        <Resource
+          name="B2bSubmissionGogeta"
+          list={B2bSubmissionGogetaList}
+          edit={B2bSubmissionGogetaEdit}
+          create={B2bSubmissionGogetaCreate}
+          show={B2bSubmissionGogetaShow}
         />
       </Admin>
     </div>

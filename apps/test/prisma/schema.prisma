@@ -18,3 +18,18 @@ model User {
   password  String
   roles     Json
 }
+
+model B2bSubmissionGogeta {
+  id        String                         @id @default(cuid())
+  createdAt DateTime                       @default(now())
+  updatedAt DateTime                       @updatedAt
+  status    EnumB2bSubmissionGogetaStatus?
+}
+
+enum EnumB2bSubmissionGogetaStatus {
+  Option1
+  Asdasdsdasd
+  Asdasd
+  Asasd
+  Asd
+}
