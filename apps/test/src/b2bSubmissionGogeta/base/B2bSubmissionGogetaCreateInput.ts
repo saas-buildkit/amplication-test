@@ -25,7 +25,14 @@ class B2bSubmissionGogetaCreateInput {
   @Field(() => EnumB2bSubmissionGogetaStatus, {
     nullable: true,
   })
-  status?: "Option1" | "Asdasdsdasd" | "Asdasd" | "Asasd" | "Asd" | null;
+  status?:
+    | "Option1"
+    | "Asdasdsdasd"
+    | "Asdasd"
+    | "Asasd"
+    | "Asd"
+    | "Newoptionset"
+    | null;
 }
 
 export { B2bSubmissionGogetaCreateInput as B2bSubmissionGogetaCreateInput };
