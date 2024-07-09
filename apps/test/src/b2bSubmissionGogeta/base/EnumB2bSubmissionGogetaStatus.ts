@@ -17,6 +17,7 @@ export enum EnumB2bSubmissionGogetaStatus {
   Asdasd = "Asdasd",
   Asasd = "Asasd",
   Asd = "Asd",
+  Newoptionset = "Newoptionset",
 }
 
 registerEnumType(EnumB2bSubmissionGogetaStatus, {

@@ -16,6 +16,7 @@ export const B2bSubmissionGogetaCreate = (
             { label: "asdasd", value: "Asdasd" },
             { label: "asasd", value: "Asasd" },
             { label: "asd", value: "Asd" },
+            { label: "newoptionset", value: "Newoptionset" },
           ]}
           optionText="label"
           allowEmpty

@@ -38,7 +38,13 @@ class B2bSubmissionGogetaWhereInput {
   @Field(() => EnumB2bSubmissionGogetaStatus, {
     nullable: true,
   })
-  status?: "Option1" | "Asdasdsdasd" | "Asdasd" | "Asasd" | "Asd";
+  status?:
+    | "Option1"
+    | "Asdasdsdasd"
+    | "Asdasd"
+    | "Asasd"
+    | "Asd"
+    | "Newoptionset";
 }
 
 export { B2bSubmissionGogetaWhereInput as B2bSubmissionGogetaWhereInput };
